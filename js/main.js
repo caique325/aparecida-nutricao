@@ -18,19 +18,19 @@ var alturaEhvalida = true ;
 if(peso <= 0 || peso >= 1000) {
     console.log("peso Invalido");
     pesoEhValido = false;
-    tdImc.textContent= "Peso invalido"
+    tdPeso.textContent= "Peso invalido"
 }
 
 if(altura <= 0 || altura > 3) {
     console.log("Altura Invalida");
     alturaEhvalida = false; 
-    tdImc.textContent= "Altura Invalida"
+    tdAltura.textContent= "Altura Invalida"
 
 }
 
 if(alturaEhvalida && pesoEhValido) {
     var imc = peso / altura **2;
     var imc_tabela = paciente.querySelector(".info-imc").textContent = imc;
-
-
+}else{
+    tdImc.textContent = 'Altura ou peso invalido';
 }
