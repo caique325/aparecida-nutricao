@@ -139,3 +139,9 @@ button[disabled=disabled], button:disabled {
 	color: rgb(255, 0,0);
 	text-transform: uppercase;
 }
+
+
+.fadeOut{
+	opacity: 0;
+	transition: 0.5s;
+}
