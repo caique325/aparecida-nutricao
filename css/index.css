@@ -135,7 +135,7 @@ button[disabled=disabled], button:disabled {
 .paciente-invalido{
 	background-color: lightcoral;
 }
-#mensagens-erro{
+#mensagens-erro,#erro-ajax{
 	color: rgb(255, 0,0);
 	text-transform: uppercase;
 }
